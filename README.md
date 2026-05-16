@@ -1,20 +1,19 @@
 # To-Do-List-App
 A simple tool that helps you keep track of everything you need to get done. It lets you quickly write down tasks, set reminders for deadlines, and organize your day so you don't forget important details. By keeping your chores and projects in one place on your phone or computer, it clears your mind and helps you stay focused and productive.
 Detailed System Flow:
-   1. Entry & Login: You open the app and log in. The app checks who you are so it can show your specific lists.
 
-   2. The "Read" Request: The app asks the database, "What tasks does this user have?" and displays them on your screen.
+   1. The "Read" Request: The app asks the database, "What tasks does this user have?" and displays them on your screen.
 
-   3. Adding a Task: You type a new task (e.g., "Buy bread").
+   2. Adding a Task: You type a new task (e.g., "Buy bread").
       * The app sends this to the server.
       * The server saves it permanently in the database.
       * The screen updates to show your new item instantly.
 
-   4. Marking as Done: You click the checkbox.
+   3. Marking as Done: You click the checkbox.
       * The app tells the server, "Task #123 is now complete."
       * The server updates that specific task's status.
 
-   5. Reminders: If you set a time, the system runs a timer in the background. When the time hits, it pushes a notification to your phone.
+   4. Reminders: If you set a time, the system runs a timer in the background. When the time hits, it pushes a notification to your phone.
 
    6. Deletion: If you swipe to delete, the app tells the server to remove that entry from the database forever.
 
