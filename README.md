@@ -8,7 +8,6 @@ Detailed System Flow:
       * The screen updates to show your new item instantly.
 
    2. Marking as Done: You click the checkbox.
-      * The app tells the server, "Task #123 is now complete."
       * The server updates that specific task's status.
 
    3. Reminders: If you set a time, the system runs a timer in the background. When the time hits, it pushes a notification to your phone.
